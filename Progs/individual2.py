@@ -7,6 +7,10 @@ import argparse
 from pathlib import Path
 
 
+# В данном задании нужно создать
+# аналог утилиты tree
+
+
 def show_tree(dir, level, m_level, files, hidden, sizes):
     def format_size(size):
         # Конвертация размера до читаемого состояния
